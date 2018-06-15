@@ -1,9 +1,0 @@
-Result = 5.5
-Result = 6.2
-Result = 21.8
-Result = 6.699999999999999
-Result = 35.0
-Result = 7.0
-Result = 0.0
-Result = 51.8
-Result = 5.0
