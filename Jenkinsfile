@@ -20,12 +20,12 @@ pipeline {
         sh 'mvn test'
       }
     }
-    post {
+  }
+  post {
       always {
         junit '**/surefire-reports/*.xml'
       }
     }
-  }
   environment {
     ENV1 = 'formation'
   }
