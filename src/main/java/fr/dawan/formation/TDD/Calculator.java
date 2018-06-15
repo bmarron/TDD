@@ -14,7 +14,7 @@ public class Calculator {
 	}
 
 	public double somme(double d, double e) {
-		lastResult = d+e+1;
+		lastResult = d+e;
 		return lastResult;
 	}
 
