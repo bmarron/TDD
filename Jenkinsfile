@@ -22,8 +22,8 @@ pipeline {
     }
     stage('Tests') {
       steps {
-        sh 'mvn site:site'
-        junit '**/test-reports/*.xml'
+        sh 'mvn test'
+        junit '**/surefire-reports/*.xml'
       }
     }
   }
